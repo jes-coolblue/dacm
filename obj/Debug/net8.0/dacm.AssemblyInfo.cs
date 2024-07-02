@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dacm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95fee796866d907fe6220a0f4e965d6e764d2ce3")]
 [assembly: System.Reflection.AssemblyProductAttribute("dacm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dacm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
