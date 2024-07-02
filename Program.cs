@@ -1,9 +1,6 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
-
 namespace DACM
 {
-    public class Program
+	public class Program
     {
         public static void Main(string[] args)
         {

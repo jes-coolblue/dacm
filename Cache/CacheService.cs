@@ -1,9 +1,8 @@
-using System;
 using Microsoft.Extensions.Caching.Memory;
 
 namespace DACM.Cache
 {
-    public class CacheService : ICacheService
+	public class CacheService : ICacheService
     {
         private readonly IMemoryCache _memoryCache;
 

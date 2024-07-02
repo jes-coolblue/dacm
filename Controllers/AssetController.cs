@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 using DACM.Services;
 using Swashbuckle.AspNetCore.Annotations;
 using DACM.Models;
@@ -10,9 +9,9 @@ namespace DACM.Controllers
 	[Route("api/[controller]")]
 	public class AssetController : ControllerBase
 	{
-		private readonly IContentService _contentService;
+		private readonly IAssetService _contentService;
 
-		public AssetController(IContentService contentService)
+		public AssetController(IAssetService contentService)
 		{
 			_contentService = contentService;
 		}
@@ -43,7 +42,7 @@ namespace DACM.Controllers
 		[SwaggerResponse(200, "An asset", typeof(Asset))]
 		public async Task<IActionResult> GetById(string id)
 		{
-			var asset = await _contentService.GetAssetByIdAsync(id);
+			var asset = await _contentService.GetByIdAsync(id);
 			if (asset == null)
 			{
 				return NotFound();

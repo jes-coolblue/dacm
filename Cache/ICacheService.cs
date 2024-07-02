@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace DACM.Cache
+﻿namespace DACM.Cache
 {
-    public interface ICacheService
+	public interface ICacheService
     {
         T? Get<T>(string key);
         void Set<T>(string key, T value, TimeSpan? absoluteExpiration = null);
