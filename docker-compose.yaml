@@ -1,13 +1,14 @@
-version: '3.4'
 
 services:
-  contentdistributionapp:
-    image: contentdistributionapp:latest
+  dacm:
+    image: dacm:latest
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: dockerfile
     ports:
       - "8080:80"
       
   redis:
     image: redis
+    ports:
+      - '6379:6379'

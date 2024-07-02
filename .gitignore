@@ -8,5 +8,5 @@
 # VS Code directories
 .vscode/
 
-/bin
-/obj
+/bin/**
+/obj/**
