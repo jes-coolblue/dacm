@@ -31,3 +31,8 @@
 /home/jes/playground/Lego/dacm/obj/Debug/net8.0/dacm.pdb
 /home/jes/playground/Lego/dacm/obj/Debug/net8.0/dacm.genruntimeconfig.cache
 /home/jes/playground/Lego/dacm/obj/Debug/net8.0/ref/dacm.dll
+/home/jes/playground/Lego/dacm/bin/Debug/net8.0/Data/AssetMetadata.json
+/home/jes/playground/Lego/dacm/bin/Debug/net8.0/Data/BriefingMetadata.json
+/home/jes/playground/Lego/dacm/bin/Debug/net8.0/Data/ContentDistributionMetadata.json
+/home/jes/playground/Lego/dacm/bin/Debug/net8.0/Data/OrderListMetadata.json
+/home/jes/playground/Lego/dacm/obj/Debug/net8.0/dacm.sourcelink.json

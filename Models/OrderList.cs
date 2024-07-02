@@ -1,4 +1,4 @@
-namespace ContentDistributionApp.Models
+namespace DACM.Models
 {
     public class OrderList
     {

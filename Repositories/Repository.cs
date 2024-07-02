@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
-using ContentDistributionApp.Models;
+using DACM.Models;
 
-namespace ContentDistributionApp.Repositories
+namespace DACM.Repositories
 {
 	public class Repository : IRepository
 	{

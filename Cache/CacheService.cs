@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Extensions.Caching.Memory;
 
-namespace ContentDistributionApp.Cache
+namespace DACM.Cache
 {
     public class CacheService : ICacheService
     {

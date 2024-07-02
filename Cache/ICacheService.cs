@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ContentDistributionApp.Cache
+namespace DACM.Cache
 {
     public interface ICacheService
     {

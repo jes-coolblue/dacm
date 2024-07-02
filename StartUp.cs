@@ -4,11 +4,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using ContentDistributionApp.Services;
-using ContentDistributionApp.Repositories;
-using ContentDistributionApp.Cache;
+using DACM.Services;
+using DACM.Repositories;
+using DACM.Cache;
 
-namespace ContentDistributionApp
+namespace DACM
 {
     public class Startup
     {

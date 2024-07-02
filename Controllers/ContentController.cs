@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using ContentDistributionApp.Services;
+using DACM.Services;
 
-namespace ContentDistributionApp.Controllers
+namespace DACM.Controllers
 {
 	[ApiController]
 	[Route("api/[controller]")]

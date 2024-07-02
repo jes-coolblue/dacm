@@ -8,3 +8,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8080:80"
+      
+  redis:
+    image: redis

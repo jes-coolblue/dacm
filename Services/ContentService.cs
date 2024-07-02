@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using ContentDistributionApp.Models;
-using ContentDistributionApp.Repositories;
-using ContentDistributionApp.Cache;
+using DACM.Models;
+using DACM.Repositories;
+using DACM.Cache;
 
-namespace ContentDistributionApp.Services
+namespace DACM.Services
 {
     public class ContentService : IContentService
     {
@@ -26,8 +26,10 @@ namespace ContentDistributionApp.Services
             var assets = await _metadataRepository.GetAssetAsync();
             return assets.Find(asset => asset.AssetId == assetId);
         }
-        public async Task<Asset?> GetAssetMetadataByIdAsync(string assetId)
-        {
+#pragma warning disable CS1998 // Async method lacks 'await' operators and will run synchronously
+		public async Task<Asset?> GetAssetMetadataByIdAsync(string assetId)
+#pragma warning restore CS1998 // Async method lacks 'await' operators and will run synchronously
+		{
             throw new System.NotImplementedException();	
         }
     }

@@ -1,4 +1,4 @@
-namespace ContentDistributionApp.Models
+namespace DACM.Models
 {
 	/// <summary>
 	/// This enum represents the approved file formats an asset can be.

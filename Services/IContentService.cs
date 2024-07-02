@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using ContentDistributionApp.Models;
+using DACM.Models;
 
-namespace ContentDistributionApp.Services
+namespace DACM.Services
 {
     public interface IContentService
     {

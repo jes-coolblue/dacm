@@ -1,4 +1,4 @@
-namespace ContentDistributionApp.Models
+namespace DACM.Models
 {	
 	/// <summary>
 	/// This enum represents the status of an asset.
