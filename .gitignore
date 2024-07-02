@@ -1,1 +1,12 @@
-bin
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code directories
+.vscode/
+
+/bin
+/obj
