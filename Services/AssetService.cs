@@ -23,7 +23,7 @@ namespace DACM.Services
         public async Task<Asset?> GetById(string assetId)
         {
             var assets = await _metadataRepository.GetAssetAsync();
-            return assets.Find(asset => asset.AssetId == assetId);
+            return assets.Find(asset => asset.assetId == assetId);
         }
 
     }
