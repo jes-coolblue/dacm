@@ -1,0 +1,6 @@
+@dacm_HostAddress = http://localhost:5101
+
+GET {{dacm_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
