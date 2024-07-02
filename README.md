@@ -2,12 +2,12 @@
 
 ## Build the Docker image:
 ```shell
-docker build -t contentdistributionapp .
+docker build -t dacm .
 ```
 
 ## Run the Docker container
 ```shell
-docker run -d -p 8080:80 --name contentdistributionapp contentdistributionapp
+docker run -d -p 8080:80 --name dacm dacm
 ```
 
 ## Access the application
